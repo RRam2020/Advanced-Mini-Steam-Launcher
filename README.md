@@ -5,11 +5,24 @@ Advanced Mini-Steam Launcher is a Windows Rainmeter skin that turns Steam activi
 It combines live Steam Web API polling, local cache files, and a small Rainmeter settings window to keep the widget responsive while still rebuilding itself automatically when your game state changes.
 
 ## Screenshots
-- Main launcher view
-![img.png](.git-files/img.png)
-
-- Settings window
-![img_1.png](.git-files/img_1.png)
+<table>
+  <tr>
+    <td align="center">
+      <strong>Main launcher view</strong><br>
+    </td>
+    <td align="center">
+      <strong>Settings window</strong><br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src=".git-files/img.png" alt="Main launcher view" width="140">
+    </td>
+    <td align="center">
+      <img src=".git-files/img_1.png" alt="Settings window" width="140">
+    </td>
+  </tr>
+</table>
 
 ## Features
 
@@ -78,7 +91,6 @@ Common actions:
 - First load after clearing `@Resources\Cache` can take longer because the launcher must rebuild data files, banners, and achievement assets
 - Achievement visibility depends on Steam API availability and Steam privacy settings
 - Active game tracking depends on Steam reporting an online in-game state
-- No screenshots are bundled yet in this repository
 
 ## Project status
 
@@ -90,10 +102,7 @@ The launcher is usable, but the project is still being iterated on and the struc
 
 Creative Commons Attribution-NonCommercial-ShareAlike 3.0.
 
-If you plan to publish or redistribute the project, verify that this is still the intended license for the repository.
-
 ## Credits / acknowledgments
 
-- Project authors: IZY2091 / Venelder
-- Built on Rainmeter
-- Uses the Steam Web API and Steam-hosted artwork/assets where available
+- Project authors: IZY2091
+- Based on Venelder Mini-Steam Launcher
