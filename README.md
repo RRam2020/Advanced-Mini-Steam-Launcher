@@ -1,24 +1,27 @@
 # Advanced Mini-Steam Launcher
 
-Advanced Mini-Steam Launcher shows recent games, recent achievements, and quick links in a configurable compact layout.
+Advanced Mini-Steam Launcher displays recent games, recent achievements, and quick links in a configurable compact layout.
 
 ## Screenshots
+
+<img src=".git-files/App%20breakdown.png" alt="App breakdown" style="display: block; width: 50%; max-width: 400px; height: auto; margin: 0;">
+
 <table>
   <tr>
     <td style="text-align: center;">
-      <strong>Mini-Steam Launcher</strong><br>
-      <strong>3 Games &amp; 3 Achievements</strong><br>
+      <strong>3 Games &amp;</strong><br>
+      <strong>3 Achievements</strong><br>
     </td>
     <td style="text-align: center;">
       <strong>Mini-Steam Settings</strong><br>
     </td>
     <td style="text-align: center;">
-      <strong>Mini-Steam Launcher</strong><br>
-      <strong>1 Game &amp; 3 Achievements</strong><br>
+      <strong>1 Game &amp;</strong><br>
+      <strong>3 Achievements</strong><br>
     </td>
     <td style="text-align: center;">
-      <strong>Mini-Steam Launcher</strong><br>
-      <strong>10 Games &amp; 10 Achievements</strong><br>
+      <strong>10 Games &amp;</strong><br>
+      <strong>10 Achievements</strong><br>
     </td>
   </tr>
   <tr>
@@ -37,20 +40,16 @@ Advanced Mini-Steam Launcher shows recent games, recent achievements, and quick 
   </tr>
 </table>
 
-
-<img src=".git-files/App%20breakdown.png" alt="App breakdown" style="display: block; width: 50%; max-width: 400px; height: auto; margin: 0;">
-
-
 ## Features
 
-- Tracks the currently active Steam game and pins it to the top of the list
+- Tracks active Steam game and pins it to the top of the list
 - Fills remaining slots from recently played games
 - Displays up to 10 game banners
 - Displays up to 10 recent achievements
 - Achievements can be displayed with rarity overlay
-- Supports offline fallback by reusing previously cached data and images
+- Offline mode will retain previous state (no tracking or updates)
 - Opens games, game details, Steam library, friends, profile pages, and achievement pages directly from the skin
-- Includes a settings sub-skin to make adjusting settings easier
+- Includes a settings menu to make adjusting settings easier
 
 ## Requirements
 
@@ -81,9 +80,9 @@ Steam privacy and status requirements:
 7. Optional: adjust Settings and `@Resources\AdvancedSettings.inc`.
 
 ## Usage
+<img src=".git-files/App%20breakdown.png" alt="App breakdown" style="display: block; width: 50%; max-width: 400px; height: auto; margin: 0;">
 
 Common actions:
-
 - Game Art
   - Left-click: Launch the game through Steam
   - Right-click: Open the game's Steam library page
@@ -91,12 +90,14 @@ Common actions:
   - Left-click: Open the user's Steam library page
 - Profile Image
   - Left-click: Open Steam friends
-  - Right-click: Open the Steam community profile
+  - Right-click: Open the user's Steam community profile
 - Achievement Panel
   - Left-click: Open the game's achievement page in Steam
 - Settings Gear
-  - Visible when hovering over the game banner
-  - Opens the Mini-Steam Settings menu
+  - Visible only when hovering over the game banner
+  - Left-click: Opens the Mini-Steam Settings menu
+
+
 
 ## Known issues / limitations
 
