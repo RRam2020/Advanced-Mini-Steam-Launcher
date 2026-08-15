@@ -1,25 +1,25 @@
 # Advanced Mini-Steam Launcher
 
-Advanced Mini-Steam Launcher is a Windows Rainmeter skin that turns Steam activity into a compact desktop launcher. It exists to give you a fast, always-visible view of your active and recently played games, recent achievements, and key Steam shortcuts without keeping the full Steam client in focus.
-
-It combines live Steam Web API polling, local cache files, and a small Rainmeter settings window to keep the widget responsive while still rebuilding itself automatically when your game state changes.
+Advanced Mini-Steam Launcher is a Windows Rainmeter skin that turns Steam activity into a compact desktop game launcher.
+It also has a recent Steam Achievement tracking and various shortcuts to relevant steam pages.
+The number of tracked games and achievements can be set in settings and the application will adaptively resize to reflect this amount.
 
 ## Screenshots
 <table>
   <tr>
-    <td align="center">
+    <td style="text-align: center;">
       <strong>Main launcher view</strong><br>
     </td>
-    <td align="center">
+    <td style="text-align: center;">
       <strong>Settings window</strong><br>
     </td>
   </tr>
   <tr>
-    <td align="center">
-      <img src=".git-files/img.png" alt="Main launcher view" width="140">
+    <td style="text-align: center;">
+      <img src=".git-files/img.png" alt="Main launcher view" style="width: 140px; height: auto;">
     </td>
-    <td align="center">
-      <img src=".git-files/img_1.png" alt="Settings window" width="140">
+    <td style="text-align: center;">
+      <img src=".git-files/img_1.png" alt="Settings window" style="width: 140px; height: auto;">
     </td>
   </tr>
 </table>
@@ -41,11 +41,10 @@ It combines live Steam Web API polling, local cache files, and a small Rainmeter
 
 - Windows
 - Rainmeter
-- Steam desktop client
-- PowerShell
-- Internet connection for live updates, API calls, and artwork downloads
 - A Steam Web API key
 - A SteamID64
+- PowerShell
+- Internet connection
 
 Steam privacy and status requirements:
 
@@ -53,31 +52,22 @@ Steam privacy and status requirements:
 - `Game Details` must be `Public` for achievement tracking
 - Steam status should be `Online` for active game detection
 
-## Minimal setup
+## Basic setup
 
-1. Copy the `Advanced Mini-Steam Launcher` folder into `Documents\Rainmeter\Skins\`.
-2. Open `@Resources\SteamAccountInfo.inc`.
-3. Fill in:
+RE-Write this
+1. Install with the Rainmeter exe? or Copy the `Advanced Mini-Steam Launcher` folder into your Rainmeter folder 
+2. Load `Advanced Mini-Steam-Launcher.ini`.
+3. Click the missing credentials msg to open the `@Resources\SteamAccountInfo.inc` file.
+4. Fill in:
    - `SteamAPIKey`
    - `SteamID64`
-4. Optional: adjust `@Resources\AdvancedSettings.inc`.
-5. Refresh Rainmeter.
-6. Load `Advanced Mini-Steam-Launcher.ini`.
-
-If credentials are missing, the launcher shows a black setup tile that links back to `SteamAccountInfo.inc`.
+5. Refresh Rainmeter. 
+6. Optional: Adjust settings and Advanced settings
 
 ## Usage
 
-Typical flow:
-
-1. Load the skin in Rainmeter.
-2. Launch a Steam game.
-3. Within the next polling cycle, that game moves to the top slot and shows the in-game badge.
-4. Close the game and the launcher will reorder itself when the active game clears or when the configured expiration window is reached.
-
 Common actions:
-
-- Left-click a game banner: launch or switch to that game in Steam
+- Left-click a game banner: launch that game in Steam
 - Right-click a game banner: open that game's Steam details page
 - Left-click the bottom Steam banner: open the Steam games/library area
 - Left-click the profile image: open Steam friends
@@ -94,9 +84,7 @@ Common actions:
 
 ## Project status
 
-Work in progress / prototype.
-
-The launcher is usable, but the project is still being iterated on and the structure may continue to change.
+First release version will be ready soon
 
 ## License
 
