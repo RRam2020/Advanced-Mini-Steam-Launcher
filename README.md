@@ -22,23 +22,23 @@ Advanced Mini-Steam Launcher shows recent games, recent achievements, and quick 
     </td>
   </tr>
   <tr>
-    <td style="text-align: center; vertical-align: bottom; width: 25%; height: 455px;">
+    <td style="text-align: center; vertical-align: bottom; width: 20%; height: 455px;">
       <img src=".git-files/3x3.png" alt="Main launcher 3 game and 3 achievements" style="max-width: 140px; max-height: 455px; width: auto; height: auto; display: block; margin: 0 auto;">
     </td>
-    <td style="text-align: center; vertical-align: bottom; width: 25%; height: 455px;">
+    <td style="text-align: center; vertical-align: bottom; width: 20%; height: 455px;">
       <img src=".git-files/Settings.png" alt="Settings window" style="max-width: 140px; max-height: 455px; width: auto; height: auto; display: block; margin: 0 auto;">
     </td>
-    <td style="text-align: center; vertical-align: bottom; width: 25%; height: 455px;">
+    <td style="text-align: center; vertical-align: bottom; width: 20%; height: 455px;">
       <img src=".git-files/1x3.png" alt="1 game and 3 achievements" style="max-width: 140px; max-height: 455px; width: auto; height: auto; display: block; margin: 0 auto;">
     </td>
-    <td style="text-align: center; vertical-align: bottom; width: 25%; height: 455px;">
+    <td style="text-align: center; vertical-align: bottom; width: 20%; height: 455px;">
       <img src=".git-files/10x10.png" alt="10 games and 10 achievements" style="max-width: 140px; max-height: 455px; width: auto; height: auto; display: block; margin: 0 auto;">
     </td>
   </tr>
 </table>
 
 
-<img src=".git-files/App%20breakdown.png" alt="App breakdown" style="display: block; width: 100%; max-width: 400px; height: auto; margin: 0;">
+<img src=".git-files/App%20breakdown.png" alt="App breakdown" style="display: block; width: 50%; max-width: 400px; height: auto; margin: 0;">
 
 
 ## Features
