@@ -1,25 +1,38 @@
 # Advanced Mini-Steam Launcher
 
-Advanced Mini-Steam Launcher is a Windows Rainmeter skin that turns Steam activity into a compact desktop game launcher.
-It also has a recent Steam Achievement tracking and various shortcuts to relevant steam pages.
-The number of tracked games and achievements can be set in settings and the application will adaptively resize to reflect this amount.
+Advanced Mini-Steam Launcher is a Windows Rainmeter skin that turns Steam activity into a compact desktop launcher. It shows recent games, recent achievements, and quick links to relevant Steam pages. Game and achievement counts are configurable, and the widget resizes automatically to match.
 
 ## Screenshots
 <table>
   <tr>
     <td style="text-align: center;">
-      <strong>Main launcher view</strong><br>
+      <strong>Mini-Steam Launcher</strong><br>
+      <strong>3 Game &amp; 3 Achievements</strong><br>
     </td>
     <td style="text-align: center;">
       <strong>Settings window</strong><br>
     </td>
-  </tr>
-  <tr>
     <td style="text-align: center;">
-      <img src=".git-files/img.png" alt="Main launcher view" style="width: 140px; height: auto;">
+      <strong>Mini-Steam Launcher</strong><br>
+      <strong>1 Game &amp; 3 Achievements</strong><br>
     </td>
     <td style="text-align: center;">
-      <img src=".git-files/img_1.png" alt="Settings window" style="width: 140px; height: auto;">
+      <strong>Mini-Steam Launcher</strong><br>
+      <strong>10 games &amp; 10 achievements</strong><br>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align: center; vertical-align: bottom; width: 25%; height: 455px;">
+      <img src=".git-files/3x3.png" alt="Main launcher 3 game and 3 achievements" style="max-width: 140px; max-height: 455px; width: auto; height: auto; display: block; margin: 0 auto;">
+    </td>
+    <td style="text-align: center; vertical-align: bottom; width: 25%; height: 455px;">
+      <img src=".git-files/Settings.png" alt="Settings window" style="max-width: 140px; max-height: 455px; width: auto; height: auto; display: block; margin: 0 auto;">
+    </td>
+    <td style="text-align: center; vertical-align: bottom; width: 25%; height: 455px;">
+      <img src=".git-files/1x3.png" alt="1 game and 3 achievements" style="max-width: 140px; max-height: 455px; width: auto; height: auto; display: block; margin: 0 auto;">
+    </td>
+    <td style="text-align: center; vertical-align: bottom; width: 25%; height: 455px;">
+      <img src=".git-files/10x10.png" alt="10 games and 10 achievements" style="max-width: 140px; max-height: 455px; width: auto; height: auto; display: block; margin: 0 auto;">
     </td>
   </tr>
 </table>
@@ -28,8 +41,8 @@ The number of tracked games and achievements can be set in settings and the appl
 
 - Tracks the currently active Steam game and pins it to the top of the list
 - Fills remaining slots from recently played games
-- Displays up to 10 game banners with text fallbacks when artwork is missing
-- Shows an in-game badge on the top listed game while a game is running
+- Displays up to 10 game banners with text fallbacks if artwork is missing
+- Shows an in-game badge on the top listed game
 - Polls active game status every 15 seconds
 - Polls recent achievements every 60 seconds
 - Shows recent achievements with cached icons and optional rarity overlays
@@ -41,6 +54,7 @@ The number of tracked games and achievements can be set in settings and the appl
 
 - Windows
 - Rainmeter
+- Steam desktop client
 - A Steam Web API key
 - A SteamID64
 - PowerShell
@@ -54,19 +68,22 @@ Steam privacy and status requirements:
 
 ## Basic setup
 
-RE-Write this
-1. Install with the Rainmeter exe? or Copy the `Advanced Mini-Steam Launcher` folder into your Rainmeter folder 
-2. Load `Advanced Mini-Steam-Launcher.ini`.
-3. Click the missing credentials msg to open the `@Resources\SteamAccountInfo.inc` file.
-4. Fill in:
+1. Install Rainmeter if it is not already installed.
+2. Copy the `Advanced Mini-Steam Launcher` folder into `Documents\Rainmeter\Skins\`.
+3. Refresh Rainmeter, then load `Advanced Mini-Steam-Launcher.ini`.
+4. Click the missing credentials message to open `@Resources\SteamAccountInfo.inc`.
+5. Fill in:
    - `SteamAPIKey`
    - `SteamID64`
-5. Refresh Rainmeter. 
-6. Optional: Adjust settings and Advanced settings
+6. Refresh Rainmeter again.
+7. Optional: adjust Settings and `@Resources\AdvancedSettings.inc`.
+
+If credentials are missing, the launcher shows a black setup tile that links directly to `SteamAccountInfo.inc`.
 
 ## Usage
 
 Common actions:
+
 - Left-click a game banner: launch that game in Steam
 - Right-click a game banner: open that game's Steam details page
 - Left-click the bottom Steam banner: open the Steam games/library area
@@ -84,7 +101,7 @@ Common actions:
 
 ## Project status
 
-First release version will be ready soon
+Work in progress / prototype.
 
 ## License
 

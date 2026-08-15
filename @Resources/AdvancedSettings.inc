@@ -12,7 +12,7 @@ DisplayGameCount=3
 ; Raw minutes for how long launched games stay in the recent list.
 ; The Mini-Steam Settings window shows this as a value plus Minutes / Hours / Days.
 ; Effective min: 0 minutes | Effective max: 1438560 minutes (999 days)
-RecentlyPlayedExpirationMinutes=5760
+RecentlyPlayedExpirationMinutes=7200
 
 ; RecentAchievementDisplayCount
 ; How many recent achievements the widget can show at once. 0 hides the achievements area.
