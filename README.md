@@ -1,16 +1,16 @@
 # Advanced Mini-Steam Launcher
 
-Advanced Mini-Steam Launcher is a Windows Rainmeter skin that turns Steam activity into a compact desktop launcher. It shows recent games, recent achievements, and quick links to relevant Steam pages. Game and achievement counts are configurable, and the widget resizes automatically to match.
+Advanced Mini-Steam Launcher shows recent games, recent achievements, and quick links in a configurable compact layout.
 
 ## Screenshots
 <table>
   <tr>
     <td style="text-align: center;">
       <strong>Mini-Steam Launcher</strong><br>
-      <strong>3 Game &amp; 3 Achievements</strong><br>
+      <strong>3 Games &amp; 3 Achievements</strong><br>
     </td>
     <td style="text-align: center;">
-      <strong>Settings window</strong><br>
+      <strong>Mini-Steam Settings</strong><br>
     </td>
     <td style="text-align: center;">
       <strong>Mini-Steam Launcher</strong><br>
@@ -18,7 +18,7 @@ Advanced Mini-Steam Launcher is a Windows Rainmeter skin that turns Steam activi
     </td>
     <td style="text-align: center;">
       <strong>Mini-Steam Launcher</strong><br>
-      <strong>10 games &amp; 10 achievements</strong><br>
+      <strong>10 Games &amp; 10 Achievements</strong><br>
     </td>
   </tr>
   <tr>
@@ -37,26 +37,28 @@ Advanced Mini-Steam Launcher is a Windows Rainmeter skin that turns Steam activi
   </tr>
 </table>
 
+
+<img src=".git-files/App%20breakdown.png" alt="App breakdown" style="display: block; width: 100%; max-width: 400px; height: auto; margin: 0;">
+
+
 ## Features
 
 - Tracks the currently active Steam game and pins it to the top of the list
 - Fills remaining slots from recently played games
-- Displays up to 10 game banners with text fallbacks if artwork is missing
-- Shows an in-game badge on the top listed game
-- Polls active game status every 15 seconds
-- Polls recent achievements every 60 seconds
-- Shows recent achievements with cached icons and optional rarity overlays
+- Displays up to 10 game banners
+- Displays up to 10 recent achievements
+- Achievements can be displayed with rarity overlay
 - Supports offline fallback by reusing previously cached data and images
 - Opens games, game details, Steam library, friends, profile pages, and achievement pages directly from the skin
-- Includes a settings sub-skin for game count, expiration windows, achievement count, and achievement rarity
+- Includes a settings sub-skin to make adjusting settings easier
 
 ## Requirements
 
 - Windows
 - Rainmeter
-- Steam desktop client
-- A Steam Web API key
-- A SteamID64
+- Steam
+  - Steam Web API key
+  - SteamID64
 - PowerShell
 - Internet connection
 
@@ -64,40 +66,42 @@ Steam privacy and status requirements:
 
 - `My Profile` must be `Public` for achievement tracking
 - `Game Details` must be `Public` for achievement tracking
-- Steam status should be `Online` for active game detection
+- Steam user status needs to be `Online` for active game detection
 
 ## Basic setup
 
-1. Install Rainmeter if it is not already installed.
-2. Copy the `Advanced Mini-Steam Launcher` folder into `Documents\Rainmeter\Skins\`.
-3. Refresh Rainmeter, then load `Advanced Mini-Steam-Launcher.ini`.
+1. Install Rainmeter.
+2. Copy the `Advanced Mini-Steam Launcher` folder into `Documents\Rainmeter\Skins\`, or install using the .rmskin.
+3. Refresh Rainmeter, then load `\Advanced Mini-Steam-Launcher.ini`.
 4. Click the missing credentials message to open `@Resources\SteamAccountInfo.inc`.
-5. Fill in:
+5. Open `SteamAccountInfo.inc` and fill in:
    - `SteamAPIKey`
    - `SteamID64`
 6. Refresh Rainmeter again.
 7. Optional: adjust Settings and `@Resources\AdvancedSettings.inc`.
 
-If credentials are missing, the launcher shows a black setup tile that links directly to `SteamAccountInfo.inc`.
-
 ## Usage
 
 Common actions:
 
-- Left-click a game banner: launch that game in Steam
-- Right-click a game banner: open that game's Steam details page
-- Left-click the bottom Steam banner: open the Steam games/library area
-- Left-click the profile image: open Steam friends
-- Right-click the profile image: open the Steam community profile
-- Left-click an achievement panel: open that game's achievement page in Steam
-- Use the gear on the bottom banner or the Rainmeter context menu to open Settings
-- Use `Rebuild` from the Rainmeter context menu to force a manual refresh
+- Game Art
+  - Left-click: Launch the game through Steam
+  - Right-click: Open the game's Steam library page
+- Game Banner
+  - Left-click: Open the user's Steam library page
+- Profile Image
+  - Left-click: Open Steam friends
+  - Right-click: Open the Steam community profile
+- Achievement Panel
+  - Left-click: Open the game's achievement page in Steam
+- Settings Gear
+  - Visible when hovering over the game banner
+  - Opens the Mini-Steam Settings menu
 
 ## Known issues / limitations
 
-- First load after clearing `@Resources\Cache` can take longer because the launcher must rebuild data files, banners, and achievement assets
-- Achievement visibility depends on Steam API availability and Steam privacy settings
-- Active game tracking depends on Steam reporting an online in-game state
+- Rebuild can be slow at times
+- Active game tracking and achievement visibility depend entirely on Steam privacy settings.
 
 ## Project status
 
@@ -112,4 +116,8 @@ Creative Commons Attribution-NonCommercial-ShareAlike 3.0.
 - Project authors: IZY2091
 - Based on Venelder Mini-Steam Launcher
 
-Check for updates: [Advanced Mini-Steam Launcher on GitHub](https://github.com/RRam2020/Advanced-Mini-Steam-Launcher)
+Check for updates here:<br>
+[Advanced Mini-Steam Launcher on GitHub](https://github.com/RRam2020/Advanced-Mini-Steam-Launcher)
+
+To report issues or request features, use:<br>
+[GitHub Issues](https://github.com/RRam2020/Advanced-Mini-Steam-Launcher/issues).

@@ -37,3 +37,6 @@ ShowAchievementRarity=1
 GoldAchievementOverlayThresholdPercent=2.0
 SilverAchievementOverlayThresholdPercent=5.0
 BronzeAchievementOverlayThresholdPercent=9.0
+
+
+Check for updates: https://github.com/RRam2020/Advanced-Mini-Steam-Launcher
