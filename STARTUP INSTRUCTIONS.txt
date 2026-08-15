@@ -18,7 +18,6 @@
 6. Load:
    AI 1 Mini-Steam-Launcher-Compact.ini
 
-
 "My Profile" and "Game Details" set to "Public": Required for achievement tracking.
 Steam app > User icon (top-right) > View My Profile > Edit Profile > Privacy Settings
 
