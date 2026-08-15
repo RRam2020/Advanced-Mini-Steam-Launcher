@@ -111,3 +111,5 @@ Creative Commons Attribution-NonCommercial-ShareAlike 3.0.
 
 - Project authors: IZY2091
 - Based on Venelder Mini-Steam Launcher
+
+Check for updates: [Advanced Mini-Steam Launcher on GitHub](https://github.com/RRam2020/Advanced-Mini-Steam-Launcher)
