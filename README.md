@@ -2,6 +2,8 @@
 
 Advanced Mini-Steam Launcher displays recent games, recent achievements, and quick links in a configurable compact layout.
 
+Download .rmskin: [Advanced-Mini-Steam-Launcher-1.0.1.rmskin](.git-files/Advanced-Mini-Steam-Launcher-1.0.1.rmskin)
+
 ## Screenshots
 
 <img src=".git-files/App%20breakdown.png" alt="App breakdown" style="display: block; width: 70%; max-width: 600px; height: auto; margin: 0;">
