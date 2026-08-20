@@ -47,7 +47,7 @@ Advanced Mini-Steam Launcher displays recent games, recent achievements, and qui
 - Displays up to 10 game banners
 - Displays up to 10 recent achievements
 - Rare achievements can be displayed with a special border; Gold, Silver, & Bronze
-  - rarity thresh hold percentages can be adjusted in the Advanced Settings
+  - Rarity threshold percentages can be adjusted in the Advanced Settings
 - Offline mode will retain previous state (no tracking or updates)
 - Opens games, game details, Steam library, friends, profile pages, and achievement pages directly from the skin
 - Includes a settings menu to make adjusting settings easier
