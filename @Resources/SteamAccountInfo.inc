@@ -15,5 +15,3 @@ SteamAPIKey=
 SteamID64=
 
 ; Save the file changes and refresh Rainmeter when done
-
-Check for updates: https://github.com/RRam2020/Advanced-Mini-Steam-Launcher
