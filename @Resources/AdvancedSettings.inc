@@ -17,7 +17,7 @@ RecentlyPlayedExpirationMinutes=7200
 ; RecentAchievementDisplayCount
 ; How many recent achievements the widget can show at once. 0 hides the achievements area.
 ; Min: 0 | Max: 10
-RecentAchievementDisplayCount=3
+RecentAchievementDisplayCount=2
 
 ; RecentAchievementExpirationMinutes
 ; Raw minutes for how long achievements stay visible in the widget.

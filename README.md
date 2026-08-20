@@ -4,7 +4,7 @@ Advanced Mini-Steam Launcher displays recent games, recent achievements, and qui
 
 ## Screenshots
 
-<img src=".git-files/App%20breakdown.png" alt="App breakdown" style="display: block; width: 50%; max-width: 400px; height: auto; margin: 0;">
+<img src=".git-files/App%20breakdown.png" alt="App breakdown" style="display: block; width: 70%; max-width: 600px; height: auto; margin: 0;">
 
 <table>
   <tr>
